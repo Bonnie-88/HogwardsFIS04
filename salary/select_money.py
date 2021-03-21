@@ -3,5 +3,3 @@ import money
 
 def select_money():
     print(f"查询工资：{money.saved_money}")
-
-# select_money()
