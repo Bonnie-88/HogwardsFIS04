@@ -1,0 +1,13 @@
+cat:
+  name: Kitty
+  color: 白色
+  age: 3
+  gender: 女
+  hair: 短毛
+
+dog:
+  name: Tom
+  color: 棕色
+  age: 1
+  gender: 男
+  hair: 长毛

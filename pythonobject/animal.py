@@ -1,3 +1,6 @@
+import yaml
+
+
 # 创建一个动物类
 class Animal:
     # 静态属性
@@ -77,3 +80,6 @@ if __name__ == '__main__':
               dog.age,
               dog.gender,
               dog.hair,)
+
+with open("./data/animal.yaml", encoding='utf-8') as f:
+    print(yaml.safe_load(f))
